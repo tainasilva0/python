@@ -1,4 +1,4 @@
-#desconto
+# desconto
 produto = float(input('Digite o valor do seu produto: R$'))
 cupom = float(input('Aplique o cupom de desconto (se houver):'))
 

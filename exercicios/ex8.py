@@ -11,4 +11,10 @@ print(f'{num} x 6 = {num * 6}')
 print(f'{num} x 7 = {num * 7}')
 print(f'{num} x 8 = {num * 8}')
 print(f'{num} x 9 = {num * 9}')
-print(f'{num} x 10 = {num * 10}')
+print(f'{num} x 10 = {num * 10}') 
+
+# tabuada (segunda forma)
+num = int(input('Digite um número:'))
+
+for i in range(0,11):
+    print(f'{num} x {i} = {num * i}')
