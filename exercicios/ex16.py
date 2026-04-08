@@ -1,2 +1,10 @@
-for i in range(0,3):
-    n1 = int(input('Digite o {i + 1} número'.format(i)))
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
+n3 = int(input('Digite o terceiro número: '))
+
+if n1 > n2 > n3:
+    print('O maior número é o {}'.format(n1))
+elif n3 > n2 > n1:
+    print('O maior número é o {}'.format(n3))
+else:
+    print('O maior número é o {}'.format(n2))
